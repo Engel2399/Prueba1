@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+   <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!--Estilos CSS-->
+    <style type="text/css">
+      .slider{
+        background: url(Images/793128.jpg);
+        height: 100vh; /*100vh se refiere a que ocupara 100% el espacios*/
+        background-size: cover;
+        background-position: center;
+      }
+    </style>
+ 
+    </head>
+    <body>
+    <section class="container-fluid slider d-flex justify-content-center align-items-center">
+      <h1 class="display-2">Bootstrap!</h1>
+    </section>
+    
+  
+    <!--  Inicio de barra de navegacion -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-toggleable-sm sticky-top"> <!-- inicio de la barra de navegacion -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aontrria-cols="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>                                <!--Boton para desplegar menu-->
+      <a class="navbar-brand" href="index.html">   <!--icono de la barra de navegacion-->
+    <img src="Images/icon.svg" width="30" height="30" alt="Logo bootstrap" >
+    Bootstrap</a>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01"> <!--Lo que está "dentro" del boton-->
+    <div class="navbar-nav text-center ml-auto mr-auto"> <!--Contenido-->
+      <a class="nav-item nav-link active" href="#">Inicio</a>
+      <a class="nav-item nav-link" href="#">Contenido</a>
+      <a class="nav-item nav-link" href="#">Nosotros</a>
+      <a class="nav-item nav-link" href="#">Contacto</a>
+    </div>
+    <div class="d-flex d-row justify-content-center">
+      <a href="https://www.facebook.com/" class="btn btn-primary mr-2">F</a>
+      <a href="https://www.youtube.com/watch?v=WP7duqy60h8&list=RDvlfNxeRn-PI&index=2" class="btn btn-danger">Y</a>
+    </div>
+    </div>
+    </nav> 
+  <!-- Fin de la barra de navegacion -->
+
+  <!-- Card -->
+    <div class="container mt-5 pt-5">
+      <div class="card-deck">
+      <div class="card">
+        <img src="Images/any.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <a class="btn btn-primary" href="#" role="button">Link</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="Images/tech.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <a class="btn btn-primary" href="#" role="button">Link</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="Images/tech2.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          <a class="btn btn-primary" href="#" role="button">Link</a>
+      </div>
+    </div>
+  </div>
+  <!-- Fin de Card -->
+  
+  <!-- Inicio Jumbotron -->
+    <div class="jumbotron mt-5 bg-dark text-white rounded-0">
+    <h1 class="display-4">Hello, world!</h1>
+    <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    <hr class="my-4">
+    <div class="d-flex justify-content-between align-items-center">
+      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+  </div>
+  <!-- Fin Jumbotron -->
+   
+  <!-- Inicio de form --> 
+    <section class="container mt-5">
+      <h3 class="text-uppercase text-center">formulario de contacto</h3>
+    
+    <div class="row">
+      <div class="col-6">
+        <form action="" class="my-4">
+          <div class="form-group row">
+            <label class="col-2 col-form-label d-none d-md-block">Nombre:</label>
+            <input type="text" placeholder="El nombre aqui we :v" class="form-control col-10"> 
+          </div>
+          <div class="form-group row">
+            <label class="col-2 col-form-label d-none d-md-block">Email:</label>
+            <input type="Email" placeholder="Y el imeil aqui" class="form-control col-10">
+          </div>
+          <div class="form-group">
+            <button class="btn btn-primary">Enviar</button>
+          </div>
+         </form>
+      </div>
+    </div>
+   <!-- Fin de form --> 
+   
+   <h3 class="text-uppercase text-center">Formulario de contacto 2</h3>
+   
+   <!-- Inicio de form2 --> 
+   <form action="" class="form-inline justify-content-center my-4 flex-column flex-md-row">
+    <div class="form-group my-2">
+      <label class="mx-2 d-none d-md-block">Nombre:</label>
+      <input type="text" placeholder="Ingresa tu nombre aqui" name="" class="form-control">
+      </div>
+    <div class="form-group my-2">
+      <label class="mx-2 d-none d-md-block">Apellido:</label>
+      <input type="text" placeholder="Ingresa tu apellido aqui" name="" class="form-control">
+    </div>
+    <div class="form-group mx-2 my-2">
+      <button class="btn btn-primary">Enviar</button>
+    </div>
+    </form>
+   <!-- Fin de form2 --> 
+   
+    </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
